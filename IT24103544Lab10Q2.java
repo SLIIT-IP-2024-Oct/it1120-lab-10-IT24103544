@@ -8,8 +8,7 @@ public class IT24103544Lab10Q2 {
         System.out.print("Enter the mark (0-100): ");
         int mark = scanner.nextInt();
         
-                assert mark >= 0 && mark <= 100 : "Invalid Mark";        // Determine the grade
-        char grade = ' ';
+                assert mark >= 0 && mark <= 100 : "Invalid Mark";               char grade = ' ';
         
         if (mark >= 75) {
             grade = 'A';
